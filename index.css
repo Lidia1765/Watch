@@ -1,0 +1,162 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    width: 1470px;
+    padding-top: 215px;
+    padding-left: 126px;
+    padding-right: 126px;
+    padding-bottom: 126px;
+    background-color: #EEEEEE;
+}
+
+.header-title{
+    margin-bottom: 11px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.header-subtitle{
+    margin-bottom: 12px;
+    font-size: 250px;
+    line-height: 230px;
+    font-weight: 300;
+}
+
+.header-description{
+  margin-bottom: 81px;
+  font-size: 29px;
+  line-height: 27px;
+}
+
+.buy-wrapper{
+  display: flex;
+}
+
+.buy-link{
+  display: block;
+  width: 287px;
+  height: 96px;
+  background-color: #000000;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 96px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.price{
+  display: block;
+  width: 144px;
+  height: 96px;
+  background-color:#FFFFFF;
+  color:#000000;
+  text-decoration: none;
+  font-size: 36px;
+  line-height: 96px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.header-img{
+  display: block;
+  width: 663px;
+  margin-top: -400px;
+  margin-left: -400px;
+}
+
+.popular-title{
+  text-align: center;
+  margin-top: 77px;
+  font-size: 36px;
+  line-height: 34px;
+
+}
+
+.models-title{
+  text-align: center;
+  font-size: 96px;
+  line-height: 88px;
+  font-weight: 300;
+  margin-bottom: 72px;
+}
+
+.item-wrapper{
+  margin: 0 auto;
+  width: 555px;
+  margin-bottom: 55px;
+}
+
+.item-img-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 555px;
+  height: 555px;
+  background-color: #EEEEEE;
+  margin-bottom: 62px;
+}
+
+.item-title{
+  text-align: center;
+  font-size: 29px;
+  line-height: 27px;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.item-description{
+  font-size: 29px;
+  line-height: 27px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.product-description-wrapper{
+  margin: 0 auto;
+  width: 555px;
+  margin-bottom: 55px;
+  margin-top: 100px;
+}
+
+.product-description-title{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 33px;
+  margin-bottom: 68px;
+}
+
+.product-description{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.product-descriptio-link{
+  color: orange;
+}
